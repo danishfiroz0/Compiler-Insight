@@ -1,0 +1,13 @@
+# Each example is a separate program. The language itself does not support comments.
+
+# Lexical error: '@' is not part of the language.
+x = 4 @ 2
+
+# Syntax error: missing closing parenthesis.
+x = (3 + 5
+
+# Semantic error: 'missing' has not been assigned.
+x = missing + 1
+
+# Semantic error: divisor is zero.
+x = 9 / 0
